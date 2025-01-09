@@ -60,7 +60,7 @@ $ systemctl status capitals-bot
 7.	Добавление сервиса в автозагрузку   
 $ sudo systemctl enable capitals-bot  
 Created symlink /etc/systemd/system/multi-user.target.wants/capitals-bot.service → /etc/systemd/system/capitals-bot.service.  
-8.	Проверим старт после перезагрузки Sudo reboot now  
+8.	Проверка старт после перезагрузки Sudo reboot now  
 $ systemctl status capitals-bot  
 9.	Проверка перезапуск после сбоя  
 ps -aux | grep capitals-bot  
@@ -69,6 +69,6 @@ PID во втором столбце (после пользователя) ви�
 $kill 34555  
 Проверка авто перезапуска процесса (PID должен измениться)  
 ps -aux | grep capitals-bot  
-Проверим работу бота в Телеграм  
+Проверка работы бота в Телеграм  
 
 
