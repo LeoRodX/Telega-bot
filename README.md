@@ -34,10 +34,10 @@ Run/run bot.py
 ## Сервер
 
 1.	Создание папки capitals-bot  
-2.	Добавление файлов приложения  
+2.	Добавление в capitals-bot файлов приложения (bot.py, secrets.py, dictionary.py)  
 3.	Создание и активация виртуальной среды py_env  
-4.	Обновление PIP: $ python3 -m pip install --upgrade pip  
-5.	Установка библиотеки: $ pip install pyTelegramBotAPI  
+4.	Обновление PIP: (py_env) user@xxx:~/capitals-bot$ python3 -m pip install --upgrade pip  
+5.	Установка библиотеки: (py_env) user@xxx:~/capitals-bot$ pip install pyTelegramBotAPI  
 6.	Старт приложения: (py_env) user@xxx:~/capitals-bot$ python3 bot.py
 7.	Проверка работы бота в Телеграм
 
