@@ -44,7 +44,7 @@ $ sudo nano capitals-bot.service
 #В первой части указан путь к правильному питону, установленному в виртуальную среду  
 #Во второй части(после пробела) полный путь к приложению питон  
 ExecStart=/home/user/capitals-bot/py_env/bin/python3 /home/user/capitals-bot/bot.py  
-#Права
+#Права  
 User=Пользователь  
 Group=ГруппаПользователя  
 #Автозапуск на случай сбоя  
