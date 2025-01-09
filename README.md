@@ -66,7 +66,7 @@ $ systemctl status capitals-bot
 ps -aux | grep capitals-bot  
 PID во втором столбце (после пользователя) вида 34555  
 Убиваем процесc:  
-$kill 34555  
+$ kill 34555  
 Проверка авто перезапуска процесса (PID должен измениться)  
 ps -aux | grep capitals-bot  
 Проверка работы бота в Телеграм  
