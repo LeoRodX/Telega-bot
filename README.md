@@ -37,7 +37,7 @@ Run/run bot.py
 2.	Добавление файлов приложения  
 3.	Создание и активация виртуальной среды py_env  
 4.	Обновление PIP: $ python3 -m pip install --upgrade pip  
-5.	Установка библиотек: $ pip install pyTelegramBotAPI  
+5.	Установка библиотеки: $ pip install pyTelegramBotAPI  
 6.	Старт приложения: (py_env) user@xxx:~/capitals-bot$ python3 bot.py
 7.	Проверка работы бота в Телеграм
 
