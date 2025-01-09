@@ -48,8 +48,7 @@ ExecStart=/home/user/capitals-bot/py_env/bin/python3 /home/user/capitals-bot/bot
 User=Пользователь  
 Group=ГруппаПользователя  
 #Автозапуск на случай сбоя  
-Restart=always  
-  
+Restart=always    
 [Install]  
 #Запуск после перезагрузки  
 WantedBy=multi-user.target  
